@@ -41,9 +41,9 @@ networks:
 
 secrets:
   db_root_password:
-    file: ./root_password
+    file: ./root_password.txt
   db_database_password:
-    file: ./database_password
+    file: ./database_password.txt
 
 volumes:
   db_data:

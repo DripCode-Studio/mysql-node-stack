@@ -49,4 +49,4 @@ BEGIN
 END//
 DELIMITER ;
 
-CALL addUser("François Gosselin", "francois_gosselin@uqar.ca", "password");
+CALL addUser("John Doe", "john_doe@gmail.com", "password");
