@@ -22,6 +22,7 @@ mysql-node-stack/
 ## Getting Started
 
 1. **Start the stack:**
+
    ```bash
    docker-compose up --build
    ```
@@ -31,6 +32,7 @@ mysql-node-stack/
    - MySQL: localhost:3309
 
 3. **Stop the stack:**
+
    ```bash
    docker-compose down
    ```
@@ -47,9 +49,11 @@ The `src/` folder is mounted as a volume, so changes will be reflected. For hot-
 ## Environment Variables
 
 Configure in `.env`:
+
 - `MYSQL_HOST` - MySQL hostname (default: db_1)
 - `MYSQL_USER` - MySQL username (default: root)
-- `MYSQL_DATABASE` - Database name (default: example)
+- `MYSQL_DATABASE` - MySQL Database name (default: example)
+- `MYSQL_PASSWORD` - MySQL Database password (default : admin)
 - `PORT` - Express server port (default: 3000)
 
 ## Dependencies
